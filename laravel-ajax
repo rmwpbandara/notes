@@ -1,0 +1,25 @@
+<meta name="csrf-token" content="{{ csrf_token() }}">
+
+
+
+
+// $('.activate-user').click(function () { 
+//     $.ajax({
+//         type: 'PUT',
+//         url: url,
+//         headers: {
+//             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+//         },
+//         data: {
+//             'active_data' : active_data
+//         },
+//         success: function (data) {
+//             alert('Change Success');
+//             console.log(data);
+//         },
+//         error: function (reject) {
+//             alert('Change Error');
+//             console.log(reject);
+//         }
+//     });
+// });
